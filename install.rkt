@@ -9,7 +9,7 @@
   (system
    (string-join
     (list
-     "gcc"
+     "g++"
      (path->string (build-path current-collection-path "vdtwrapper.cpp"))
      "-shared"
      "-o"
